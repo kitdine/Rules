@@ -1,0 +1,11 @@
+#!name=WeChat
+#!desc=WeChat app removes ads.
+#!system=ios
+
+[URL Rewrite]
+https?://mp.weixin.qq.com/mp/(ad_complaint|ad_video|advertisement_report|report) - reject
+
+[Script]
+http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://raw.githubusercontent.com/kitdine/Rules/master/Scripts/WeChat.js
+[MITM]
+hostname = %APPEND% mp.weixin.qq.com

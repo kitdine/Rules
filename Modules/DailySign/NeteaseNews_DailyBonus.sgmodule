@@ -1,0 +1,9 @@
+#!name=网易信息 DailyBonus
+#!desc=打开 APP 然后手动签到 1 次
+#!system=ios
+
+[Script]
+cron "10 22 07 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js
+
+[MITM]
+hostname = %APPEND% *.m.163.com

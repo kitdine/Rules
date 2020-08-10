@@ -1,0 +1,6 @@
+#!name=历史上的今天
+#!desc=
+#!system=ios
+
+[Script]
+cron "0 0 10,20 * * *" script-path=https://raw.githubusercontent.com/kitdine/Rules/master/Scripts/DailyNote.js

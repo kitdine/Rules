@@ -1,0 +1,9 @@
+#!name=叮咚买菜
+#!desc=打开 APP, 访问下我的>积分
+#!system=ios
+
+[Script]
+cron "10 20 07 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js
+
+[MITM]
+hostname = %APPEND% maicai.api.ddxq.mobi

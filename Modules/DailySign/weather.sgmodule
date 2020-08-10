@@ -1,0 +1,2 @@
+[script]
+cron "0 40 7-23/1 * * *" script-path=https://raw.githubusercontent.com/kitdine/Surge/master/Scripting/newWeather.js

@@ -1,0 +1,9 @@
+#!name=人人影视 DailyBonus
+#!desc=先在浏览器登录 (先登录! 先登录! 先登录!) 打开 APP 即可
+#!system=ios
+
+[Script]
+cron "10 23 07 * * *" script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js
+
+[MITM]
+hostname = %APPEND% *.rrys2019.com, ios.zmzapi.com

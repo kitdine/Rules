@@ -1,0 +1,9 @@
+#!name=Toutiao
+#!desc=Toutiao app removes ads.
+#!system=ios
+
+[Script]
+http-response ^https?://[\s\S]*\.snssdk\.com/api/news/feed/v88/ requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/kitdine/Rules/master/Scripts/Toutiao.js
+
+[MITM]
+hostname = %APPEND% *.snssdk.com

@@ -1,0 +1,9 @@
+#!name=QQNews
+#!desc=QQNews app removes ads.
+#!system=ios
+
+[Script]
+http-response https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList) requires-body=1,max-size=-1,script-path=https://raw.githubusercontent.com/kitdine/Rules/master/Scripts/QQNews.js
+
+[MITM]
+hostname = %APPEND% r.inews.qq.com
