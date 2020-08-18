@@ -24,3 +24,8 @@ payload:
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,xbox.com
   - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,msedge.net
+  - DOMAIN-SUFFIX,gamepass.com
+  - DOMAIN-SUFFIX,s-microsoft.com
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,xboxservices.com
