@@ -6,6 +6,6 @@
 https?://mp.weixin.qq.com/mp/(ad_complaint|ad_video|advertisement_report|report) - reject
 
 [Script]
-http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://raw.githubusercontent.com/kitdine/Rules/master/Scripts/WeChat.js
+weichat = type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad,script-path=https://raw.githubusercontent.com/kitdine/Rules/master/Scripts/WeChat.js
 [MITM]
 hostname = %APPEND% mp.weixin.qq.com
