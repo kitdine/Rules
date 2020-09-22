@@ -2,5 +2,8 @@ payload:
   - DOMAIN-SUFFIX,chocolatey.org
   - DOMAIN-SUFFIX,listary.com
   - DOMAIN-SUFFIX,epbeast.com
+  - DOMAIN-SUFFIX,91p20.space
+  - DOMAIN-SUFFIX,91p52.com
+  - DOMAIN-SUFFIX,91p48.com
   - IP-CIDR,8.8.8.8/32,no-resolve
   - IP-CIDR,8.8.4.4/32,no-resolve
