@@ -4,6 +4,9 @@ payload:
   - DOMAIN-SUFFIX,redtraffic.xyz
   - DOMAIN-SUFFIX,visit-x.tv
   - DOMAIN-SUFFIX,adultiptv.net
+  - DOMAIN-SUFFIX,streamlock.net
   - IP-CIDR,109.71.162.112/32,no-resolve
   - IP-CIDR,188.35.9.5/32,no-resolve
   - IP-CIDR,194.116.150.47/32,no-resolve
+  - IP-CIDR,122.38.74.172/32,no-resolve
+  - IP-CIDR,112.148.183.161/32,no-resolve
